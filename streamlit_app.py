@@ -1,3 +1,3 @@
 import streamlit
 
-streamlit.title('To jest super')
+streamlit.title('Kocham moją żonę')
