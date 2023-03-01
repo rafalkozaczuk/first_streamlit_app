@@ -53,7 +53,7 @@ streamlit.header("The fruits from Snowflake:")
 def get_fruit_load_list():
       with my_cnx.cursor() as my_cur:
             my_cur.execute("select * from pc_rivery_db.public.fruit_load_list")
-            return my_data_rows = my_cur.fetchall()
+            return  my_cur.fetchall()
 
 
 if streamlit.button('Get Fruit load'):
